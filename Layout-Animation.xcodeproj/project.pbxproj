@@ -11,6 +11,10 @@
 		AC83DC642B7111CD00C93753 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC83DC632B7111CD00C93753 /* ContentView.swift */; };
 		AC83DC662B7111CE00C93753 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC83DC652B7111CE00C93753 /* Assets.xcassets */; };
 		AC83DC692B7111CE00C93753 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC83DC682B7111CE00C93753 /* Preview Assets.xcassets */; };
+		AC83DC712B7113A500C93753 /* Island.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC83DC702B7113A500C93753 /* Island.swift */; };
+		AC83DC742B711A6400C93753 /* IslandDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC83DC732B711A6400C93753 /* IslandDetailScreen.swift */; };
+		AC83DC772B711EE200C93753 /* IslandCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC83DC762B711EE200C93753 /* IslandCard.swift */; };
+		AC83DC7A2B7126AF00C93753 /* Waterfall Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC83DC792B7126AF00C93753 /* Waterfall Layout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		AC83DC632B7111CD00C93753 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AC83DC652B7111CE00C93753 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC83DC682B7111CE00C93753 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AC83DC702B7113A500C93753 /* Island.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Island.swift; sourceTree = "<group>"; };
+		AC83DC732B711A6400C93753 /* IslandDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslandDetailScreen.swift; sourceTree = "<group>"; };
+		AC83DC762B711EE200C93753 /* IslandCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslandCard.swift; sourceTree = "<group>"; };
+		AC83DC792B7126AF00C93753 /* Waterfall Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Waterfall Layout.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +59,10 @@
 		AC83DC602B7111CD00C93753 /* Layout-Animation */ = {
 			isa = PBXGroup;
 			children = (
+				AC83DC782B71269A00C93753 /* Layout */,
+				AC83DC752B711ECF00C93753 /* Components */,
+				AC83DC722B711A5500C93753 /* Screen */,
+				AC83DC6F2B71139900C93753 /* Model */,
 				AC83DC612B7111CD00C93753 /* Layout_AnimationApp.swift */,
 				AC83DC632B7111CD00C93753 /* ContentView.swift */,
 				AC83DC652B7111CE00C93753 /* Assets.xcassets */,
@@ -65,6 +77,38 @@
 				AC83DC682B7111CE00C93753 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AC83DC6F2B71139900C93753 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AC83DC702B7113A500C93753 /* Island.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AC83DC722B711A5500C93753 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				AC83DC732B711A6400C93753 /* IslandDetailScreen.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		AC83DC752B711ECF00C93753 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				AC83DC762B711EE200C93753 /* IslandCard.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		AC83DC782B71269A00C93753 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				AC83DC792B7126AF00C93753 /* Waterfall Layout.swift */,
+			);
+			name = Layout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +182,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC83DC642B7111CD00C93753 /* ContentView.swift in Sources */,
+				AC83DC7A2B7126AF00C93753 /* Waterfall Layout.swift in Sources */,
+				AC83DC772B711EE200C93753 /* IslandCard.swift in Sources */,
+				AC83DC742B711A6400C93753 /* IslandDetailScreen.swift in Sources */,
 				AC83DC622B7111CD00C93753 /* Layout_AnimationApp.swift in Sources */,
+				AC83DC712B7113A500C93753 /* Island.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
